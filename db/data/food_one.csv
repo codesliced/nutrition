@@ -1,4 +1,4 @@
-department,description,brand,serving size,protein box,carb box,milk box,store_id
+department,description,brand,serving_size,protein_box,carb_box,milk_box,store_id
 Cheese, Jarlsberg Light Swiss, Jarlsberg, 1 oz,1,0,0,
 Cheese, Light String Cheese, Trader Joe's, 1 oz/1 stick,1,0,0,
 Cheese, Lite Mild Cheddar snack sticks, Trader Joe's, 1 oz,1,0,0,

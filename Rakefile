@@ -44,11 +44,11 @@ RSpec::Core::RakeTask.new(:specs)
 task :default  => :specs
 desc 'Play with rosters'
 task "console" do
-  puts Food.all
-  food = Food.first
-  puts food.inspect
-
-  end
+  # puts Food.all
+  # food = Food.first
+  # puts food.inspect
+  exec "irb -r./app/models/food.rb -r./app/models/store.rb"
+end
 
 
 # desc 'Assign keys to roster table'

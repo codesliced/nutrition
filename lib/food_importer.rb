@@ -10,6 +10,7 @@ module FoodImporter
           field_names = data
         else
           attribute_hash = Hash[field_names.zip(data)]
+          p attribute_hash
           food = Food.create!(attribute_hash)
         end
       end

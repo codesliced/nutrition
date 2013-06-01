@@ -8,7 +8,7 @@ class CreateFoods < ActiveRecord::Migration
       t.string :department
       t.string :description
       t.string :brand
-      t.date   :serving_size
+      t.string :serving_size
       t.float :protein_box
       t.float :carb_box
       t.float :milk_box
